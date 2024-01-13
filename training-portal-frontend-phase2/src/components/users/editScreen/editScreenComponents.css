@@ -1,0 +1,252 @@
+/* commonFields.css */
+
+.typographyStyle {
+  font-family: "Poppins" !important;
+  margin-bottom: 5px !important;
+  font-size: 16px ;
+  font-style: normal; 
+  font-weight: 400 ;
+  line-height: 20px ;
+  color: var(--neutral-neutral-0, #0a0a0a) ;
+}
+
+.inputFieldEmail .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 50px ;
+  width: 100% ;
+  border-radius: 5px;
+  border: 1px solid var(--Stroke, #d9dae4);
+  background: var(--neutral-neutral-99, #f1f1f1);
+}
+.inputField .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 50px ;
+  width: 100% ;
+}
+
+.marginTop {
+  margin-top: 5px !important;
+}
+
+.phoneInputField {
+  height: 50px ;
+  width: 100% ;
+}
+.react-tel-input .form-control {
+  height: 50px ;
+  width: 100% ;
+}
+.divider {
+  margin: 20px 0 20px 0 ;
+}
+
+.statusField {
+  display: flex ;
+}
+.adminRoleMargin {
+  margin-top: 20px ;
+}
+.adminRoleDropDown {
+  height: 50px !important;
+  width: 50% !important;
+}
+
+/* In InternFields.css */
+
+.released-section {
+  display: flex !important;
+  margin-top: 10px;
+}
+
+.section-title {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  font-size: 16px ;
+  font-style: normal ;
+  font-weight: 400 ;
+  line-height: 20px !important;
+  color: var(--neutral-neutral-0, #0a0a0a) ;
+}
+.noneDisplay {
+  display: none ;
+}
+.job-role-section {
+  margin-top: 1px !important;
+}
+.margin4 {
+  margin: 4px !important;
+}
+.select-box {
+  height: 50px !important;
+}
+.custom-menu {
+  min-width: unset;
+}
+.select-box-item {
+  height: 50px !important;
+  width: 50% !important;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiMenu-paper.MuiPopover-paper.MuiMenu-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper.custom-menu {
+  height: 50px !important;
+  width: 50% !important;
+  opacity: 1;
+  transform: none !important;
+  transition: opacity 251ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 167ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  top: 611px;
+  left: 16px;
+  transform-origin: 508.056px 34px;
+}
+
+.divider {
+  margin: 20px 0 15px 0 !important;
+}
+
+.mentor-chips {
+  display: flex ;
+  flex-wrap: wrap ;
+  align-items: center ;
+}
+.MuiBox-root css-fk8lqc {
+  margin-bottom: 0 ;
+}
+
+.customTablePagination {
+  display: flex;
+  align-items: center;
+}
+
+.customTablePagination .MuiSelect-root {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.customTablePagination .MuiTypography-root {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 1rem !important;
+}
+.table-pagination {
+  border: 0px;
+}
+.table-pagination p {
+  font-family: Roboto;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.MuiTablePagination-root .MuiTablePagination-toolbar {
+  border: none !important;
+}
+
+.css-1xt3ag1-MuiTableCell-root {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  text-align: left;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  color: var(--on-surface-high-emphasis-87, rgba(0, 0, 0, 0.87));
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  height: 0.5rem;
+}
+
+.MuiMenu-paper[style*="min-width: 1326px"] {
+  min-width: unset !important;
+  width: 50% !important;
+  left: 20px !important;
+}
+
+/* Styles for UserEditForm */
+.user-edit-form-container {
+  background: var(--Background-Page, #f6f6f6);
+}
+
+.user-edit-form-header {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.user-edit-form-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-edit-form-paper {
+  padding: 20px;
+  width: 100%;
+}
+
+.user-edit-form-divider {
+  margin: 20px 0 25px 0 !important;
+}
+
+.user-edit-form-container-one {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.user-edit-form-container-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-edit-form-button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  position: fixed;
+  bottom: 1px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.user-edit-form-button {
+  background-color: white !important;
+  display: flex;
+  padding: 12px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  color: var(--primary-primary-30, #0d4896) !important;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.user-edit-form-cancel-button {
+  background-color: white !important;
+  color: var(--primary-primary-30, #0d4896) !important;
+}
+
+.user-edit-form-update-button {
+  background: var(--primary-primary-30, #0d4896) !important;
+  color: white !important;
+}
+
+.MuiList-root MuiList-padding MuiMenu-list css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: red;
+}
+
+.MuiPaper-root .MuiPaper-elevation .MuiPaper-rounded .MuiPaper-elevation8 .MuiMenu-paper .MuiPopover-paper .MuiMenu-paper .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  width: 50% !important;
+}

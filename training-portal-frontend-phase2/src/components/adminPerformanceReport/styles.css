@@ -1,0 +1,32 @@
+.header-container {
+    width: 100%; /* Changed to a specific width value in pixels */
+    height: 33px; /* Changed to a specific height value in pixels */
+    padding: 6px;
+    gap: 6px;
+    /* border: 1px solid black; */
+    display: flex;
+  background-color: white;
+  }
+  
+  .header2-container {
+    width: 90%; /* Changed to a specific width value in pixels */
+    height: 23px; /* Changed to a specific height value in pixels */
+    gap: 6px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 140px; /* Changed to a specific width value in pixels */
+    height: 23px; /* Changed to a specific height value in pixels */
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 7px 6px 7px 7px; /* Changed to use shorthand for padding */
+  }
+  .avatar{
+    width : 70px;
+    height: 20px;
+  }
+ 

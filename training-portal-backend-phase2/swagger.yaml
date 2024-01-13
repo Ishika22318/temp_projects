@@ -1,0 +1,468 @@
+openapi: 3.0.0
+info:
+  title: INTERN'S TRAINING PORTAL REST API's
+  description: The project provides three APIs for managing and tracking the training progress and performance of interns. These APIs enable efficient management and access to course-related information based on the user's role within the system, and also provide valuable insights into interns' progress and areas for improvement throughout their training program.The first API endpoint retrieves the details of all courses based on the user's role. This endpoint allows authorized users to access information about the available courses.The second API endpoint retrieves the content specific to a particular course for the user's role. By providing the course ID, authorized users can retrieve the course content and related information.The third API endpoint enables interns to access their weekly ratings and retrieve performance reports. With proper authentication and authorization using the bearer token sent in the authorization header, interns can view their ratings and obtain reports on their performance throughout the training program.
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000/api/v1/
+    description: Localhost development server is running here.
+
+components:
+  securitySchemes:
+    BearerAuth: # arbitrary name for the security scheme
+      type: http
+      scheme: bearer
+
+  schemas:
+    Courses:
+      type: object
+      properties:
+        id:
+          type: string
+        startdate:
+          type: date
+        Role:
+          type: string
+        total_course:
+          type: integer
+        completed_course:
+          type: integer
+        progressed_course:
+          type: integer
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/data"
+
+    data:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: string
+          courseDuration:
+            type: integer
+          label:
+            type: string
+          course:
+            type: string
+          description:
+            type: string
+          courseUrl:
+            type: string
+          days:
+            type: array
+            items:
+              type: object
+              properties:
+                DAY:
+                  type: integer
+                startTime:
+                  type: string
+                endTime:
+                  type: string
+                label:
+                  type: string
+                week:
+                  type: integer
+                date:
+                  type: date
+                description: 
+                  type: string
+          courseContent:
+            type: array
+            items:
+              type: object
+              properties:
+                topic:
+                  type: string
+                subtopics:
+                  type: array
+                  items:
+                    type: string
+
+    ProjectReport:
+      type: object
+      properties:
+        menteeName:
+          type: string
+        menteeEmailId:
+          type: string
+        mentorName:
+          type: string
+        mentorEmailId:
+          type: string
+        useCaseUnderstandingInterpretation:
+          type: number
+        logicApplied:
+          type: number
+        techLearnedVsImplemented:
+          type: number
+        solutionExplanationClarity:
+          type: number
+        type:
+          type: string
+
+    WeeklyReport:
+      type: object
+      properties:
+        menteeName:
+          type: string
+        menteeEmailId:
+          type: string
+        mentorName:
+          type: string
+        mentorEmailId:
+          type: string
+        overallAssessment:
+          type: number
+        attendanceParticipation:
+          type: number
+        timeManagement:
+          type: number
+        communicationSkills:
+          type: number
+        performanceInAssignment:
+          type: number
+        remarks:
+          type: string
+        type:
+          type: string
+        weekNumber:
+          type: number
+        weekStartDate:
+          type: string
+          format: date-time
+        weekEndDate:
+          type: string
+          format: date-time
+
+    PerformanceReport:
+      type: object
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+        data:
+          type: object
+          properties:
+            name:
+              type: string
+            grade:
+              type: string
+            emailId:
+              type: string
+            attendanceParticipation:
+              type: number
+            communicationSkill:
+              type: number
+            timeManagement:
+              type: number
+            mockProject:
+              type: number
+            averageScore:
+              type: number
+            assessment:
+              type: number
+            weeks:
+              type: array
+              items:
+                type: object
+                properties:
+                  weekId:
+                    type: number
+                  mentorFeedbacks:
+                    type: array
+                    items:
+                      type: string
+                  timeManagement:
+                    type: number
+                  overallAssessment:
+                    type: number
+                  communicationSkill:
+                    type: number
+                  attendanceParticipation:
+                    type: number
+                  assignment:
+                    type: number
+                  startingDate:
+                    type: string
+                    format: date-time
+                  endingDate:
+                    type: string
+                    format: date-time
+
+    Users:
+      type: object    
+      properties:  
+            name:
+              type: string
+            email:
+              type: string
+            password:
+              type: string
+            role:
+              type: string
+            jobRole:
+              type: string
+            profilePicture:
+              type: string
+            batchId:
+              type: string
+            addedBy:
+              type: string
+            addedDate:
+              type: string
+              format: date-time
+            updatedDate:
+              type: string
+              format: date-time  
+            released:
+              type: boolean  
+            status:
+              type: boolean  
+            coursesCompleted:
+              type: number  
+            coursesPending:
+              type: number  
+            contact:
+              type: string  
+            assignedMentors:
+                type: array 
+                items:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    email:
+                      type: string  
+            assignedInterns:
+                type: array 
+                items:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    email:
+                      type: string      
+
+
+
+paths:
+  /training:
+    get:
+      tags:
+        - Rest-APIs
+      summary: This API provides comprehensive information on all courses associated with the user, categorized according to their respective roles.
+      description: The API retrieves all courses for a specific role. The role is obtained from the token, which is passed through the authorization header of the request. This ensures that only authorized users with the appropriate role can access the course information.
+      security:
+        - BearerAuth: [] # Apply bearer token authentication
+      responses:
+        200:
+          description: Object of all the courses.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Courses"
+        401:
+          description: Unauthorized. User authentication required.
+        500:
+          description: Internal server error. Failed to fetch the course data.
+
+  /training/{course}:
+    get:
+      tags:
+        - Rest-APIs
+      summary: This API will provide role-specific details for a given course.
+      description: The API retrieves the details of a specific course, which is dynamically passed to it. First, it retrieves the role of the user from the token passed as the authorization header. Then, it fetches the course details specifically tailored to that particular course based on the user's role.
+      parameters:
+        - in: path
+          name: course
+          required: true
+          description: Course
+          schema:
+            type: string
+      security:
+        - BearerAuth: [] # Apply bearer token authentication
+      responses:
+        200:
+          description: Object of the single course.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/data"
+        401:
+          description: Unauthorized. User authentication required.
+        404:
+          description: No courses found.
+        500:
+          description: Internal server error. Failed to fetch the course data.
+
+  /reports/{id}:
+    get:
+      tags:
+        - Rest-APIs
+      summary: This API fetches Specific report of email ID provided.
+      description: Retrieves a specific report based on the email ID provided.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Email ID of the intern
+          schema:
+            type: string
+            format: email
+      security:
+        - BearerAuth: [] # Apply bearer token authentication
+      responses:
+        200:
+          description: Performance report in the format of a JSON object.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/PerformanceReport"
+        400:
+          description: Invalid email ID provided or intern not found.
+        401:
+          description: Unauthorized. User authentication required.
+        500:
+          description: Internal server error. Failed to fetch the performance report management data.
+
+  #Users API 
+  /users:
+    get:
+      tags:
+        - Rest-APIs
+      summary: This API provides list of all the users .
+      description: The API retrieves all inforation of the users registered in the database ,  .
+      security:
+        - BearerAuth: [] # Apply bearer token authentication
+      responses:
+        200:
+          description: User details in the format of a JSON object.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Users"
+ 
+        401:
+          description: Unauthorized. User authentication required.
+        500:
+          description: Internal server error. Failed to fetch the course data.
+ 
+    post:
+      tags:
+        - Rest-APIs
+      summary: This API add the new user .
+      description: The API takes user field and save user to DB .
+      security:
+        - BearerAuth: [] # Apply bearer token authentication
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                name:
+                  type: string
+                contact:
+                  type: string
+                batchId:
+                  type: string
+                jobRole:
+                  type: string
+                role:
+                  type: string
+              
+      
+      responses:
+        200:
+          description: User  is added successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+              
+        401:
+          description: Unauthorized. User authentication required.
+        500:
+          description: Internal server error. Failed to add user data.
+       
+  /users/{id}:
+    get:
+      tags:
+        - Rest-APIs
+      summary: This API fetch the specific user based on MongoDB Id.
+      description: Retrieves the   specific user based on the id provided.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: MongoDB ID of the intern
+          schema:
+            type: string
+            format: email
+      security:
+        - BearerAuth: [] # Apply bearer token authentication
+      responses:
+        200:
+          description: User Information Displayed.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+               
+        400:
+          description: Invalid mongoDB ID provided or user not found.
+        401:
+          description: Unauthorized. User authentication required.
+        500:
+          description: Internal server error. Failed to fetch the performance report management data.
+       
+    put:
+      tags:
+        - Rest-APIs
+      summary: This API  updates a specific  user based on mongoDB Id .
+      description: The API takes input of user fields and save updated userdata to DB .
+      security:
+        - BearerAuth: [] # Apply bearer token authentication
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: MongoDB id
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+                $ref: "#/components/schemas/Users"
+              
+      
+      responses:
+        201:
+          description: Product updated succesfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+              
+        401:
+          description: Unauthorized. User authentication required.
+        500:
+          description: Internal server error. Failed to update user data.
+ 
+  
+  

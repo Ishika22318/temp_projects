@@ -1,0 +1,220 @@
+/* custom styles for headers */
+
+.data-status-column-container {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.data-status-tabelcell-container {
+  width: 150px;
+  display: flex;
+  align-content: center;
+  background-color: lightskyblue;
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 5px;
+  opacity: 60%;
+}
+.data-done-status-tabelcell-container {
+  width: 150px;
+  display: flex;
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 5px;
+  opacity: 60%;
+  background-color: #23af81;
+}
+
+/* Status Styles */
+.active-status {
+  background-color: #23af811a !important;
+  color: #23af81 !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.inactive-status {
+  background-color: #fff4f6 !important;
+  color: #fe3f3f !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Name Style */
+.nameStyle {
+  cursor: pointer !important;
+}
+
+.nameStyle img {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  margin-right: 8px !important;
+}
+
+/* Released Style */
+.releasedStyle {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  max-width: 65px !important;
+}
+
+/* other styles */
+.customTableRow:hover {
+  background-color: #f5f5f5;
+}
+
+.customSelect {
+  height: 50px;
+}
+
+.table-pagination {
+  margin-right: 30px;
+}
+.nameStyle {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Roboto Mono;
+}
+.checkboxPadding {
+  padding-right: 0px !important;
+}
+.tableHeaderCustomBackground {
+  background-color: var(--Background-Page, #f6f6f6) !important;
+}
+.customTableRow {
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto Mono;
+}
+.tableHeaderStyle {
+  font-family: Roboto !important;
+  font-size: 1.05rem !important;
+  font-style: normal !important;
+  font-weight: 550 !important;
+  line-height: 24px !important;
+  letter-spacing: 0.1px !important;
+}
+.tableCellStyle {
+  font-family: Roboto !important;
+  font-size: 1.05rem !important;
+  font-style: normal !important;
+  font-weight: 250 !important;
+  letter-spacing: 0.1px !important;
+}
+
+/* styles.css */
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.selected-rows {
+  margin-right: 10px;
+}
+
+.vertical-divider {
+  flex: 0 0 auto;
+  border-right: 1px solid #ccc;
+  height: 24px;
+  margin: 0 10px;
+}
+
+.search-box {
+  margin-left: 245px;
+  width: 250px !important;
+  height: 50px !important;
+  position: absolute;
+}
+
+.search-input {
+  width: 100%;
+  height: 45px !important;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.Blocked {
+  width: 150px;
+  display: flex;
+  align-content: center;
+  background-color: rgb(250, 135, 135);
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 5px;
+  opacity: 60%;
+}
+
+.Created {
+  width: 150px;
+  display: flex;
+  align-content: center;
+  background-color: rgb(183, 181, 181);
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 5px;
+  opacity: 60%;
+}
+
+.Always-Target {
+  background-color: #fff5c8;
+  color: #e4b304;
+  padding: 5px;
+  padding-left: 8px;
+  border-radius: 5px;
+  width: fit-content;
+  display: flex;
+  align-content: center;
+}
+
+.Mostly-Outstanding {
+  background-color: rgba(6, 137, 85, 0.15);
+  color: #068955;
+  padding: 5px;
+  padding-left: 8px;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+}
+
+.Threshold {
+  background-color: rgba(255, 244, 246, 1);
+  color: rgba(246, 104, 104, 1);
+  padding: 5px;
+  padding-left: 8px;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+}
+.Mostly-Target {
+  background-color: rgb(211, 233, 239);
+
+  color: rgb(24, 181, 224);
+  padding: 5px;
+  padding-left: 8px;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+}
+.Below-Threshold {
+  background-color: rgb(252, 211, 211);
+  color: rgb(183, 70, 33);
+  padding: 5px;
+  padding-left: 8px;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+}
+#root > div > div:nth-child(2) > div:nth-child(2) > div.MuiBox-root.css-0 > div.MuiBox-root.css-1lekzkb > td {
+  margin-left: 500px;
+}

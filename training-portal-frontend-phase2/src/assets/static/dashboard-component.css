@@ -1,0 +1,218 @@
+.dashboard-div{
+    padding-top: 5px;
+    background-color:#f6f6f6;
+ }
+.dashboard-welcome-div{
+  background-color: white;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dashboard-welcome-message-div{
+  float: left;
+}
+.dashboard-weeksandrole-dropdown-menu-div{
+  float: right;
+  display: flex;
+}
+ .dashboard-card-div{
+   background-color:white;
+   padding: 20px;
+   margin: 20px;
+ }
+ .dashboard-weekly-evaluation-div{
+   background-color:white;
+   padding: 20px;
+   margin: 20px;
+ }
+  
+ .row-card {
+  margin-left: 25px;
+  margin-top: 10%;
+  max-width: 300px;
+}
+  .center-content {
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-text-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .status-image {
+    margin-right: 5px;
+    margin-left: 13px;
+  }
+  
+  .status-number {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  
+  .status-label {
+    font-size: 7px;
+    font-weight: normal;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: center;
+  }
+  .view-course-button {
+    background-color: #0D4896 !important;
+    color: white !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    padding: 4px 8px !important;
+  }
+  
+.data-search-textfield{
+     margin-top: 20px;
+    margin-bottom: 10px;
+   /* padding-bottom: 8px;
+    height: fit-content;
+    display: flex;
+    align-items: center; */
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .wrapper-dashboard{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .drop-down-div{
+    float: left;
+  }
+  .send-all-actions-div{
+    float: right;
+  }
+  .dashboard-circle-intern {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: orangered;
+    border-radius: 50%;
+  }
+  .dashboard-circle-mentor{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+  }
+  .dashboard-text{
+    font-size:larger ;
+    font-weight: 500;
+    font: Poppins;
+  }
+  .dashboard-count-text {
+    margin: auto;
+    color: white;
+    font-size: x-small;
+    font-weight:600;
+  }
+  .weekly-evaluation-table-div{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    margin-top: 80px;
+  }
+  .data-table-container{
+      padding: 20px;
+      border: none;
+      background-color: #f6f6f6;
+  }
+  .table-header{
+    background-color:white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .table-pagination{
+    background-color:white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .table-pagination p{
+    margin: 0px 0px 0px 20px;
+  }
+  .dasboard-table-image{
+    width:20px;
+    height:20px;
+  
+  }
+  .dasboard-table-status{
+    padding-left:5px;
+    font-size:12px;
+  }
+  
+  .data-table-container .MuiCheckbox-root{
+    width:4px;
+    height:4px;
+    color:white;
+    box-shadow:0 0 4px gainsboro;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+  }
+  .data-grid-container .MuiCheckbox-root:hover {
+    color:white;
+    background-color: transparent; 
+  }
+  
+  .data-table-container img{
+    width: 40px;
+    height: 40px;
+    border-radius:100%;
+    object-fit:cover;
+  }
+  
+  .data-object-column-container{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+  }
+  .data-object-tablecell-container{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .data-status-column-container{
+    width: 100px;
+    display: flex;
+    justify-content: center;    
+  }
+  .data-status-tabelcell-container{
+    width: 150px;
+    display: flex;
+    align-content: center;
+    background-color:lightskyblue;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    opacity: 60%;
+  }
+  .data-done-status-tabelcell-container{
+    width: 150px;
+    display: flex;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    opacity: 60%;
+    background-color:#23AF81; 
+  }
+  

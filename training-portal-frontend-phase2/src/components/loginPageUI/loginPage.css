@@ -1,0 +1,173 @@
+@media only screen and (max-width: 560px) {
+  .formpage {
+    width: 100% !important;
+    margin-left: 0;
+    }
+}
+@media only screen and (max-width: 660px) {
+.formpage {
+width: 95% !important;
+margin-left: auto;
+}
+}
+
+
+.App-heading {
+color: var(--primary-primary-30, #0D4896);
+font-size: 40px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: 52px;
+margin-top: 139px;
+margin-left: 50px;
+}
+
+.login-page-body {
+  background: url('../../assets/login_Images/Background.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  overflow: scroll;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  }
+
+.comp-logo{ 
+width: 302px;
+height: 61px;
+flex-shrink: 0;
+margin-top: 30px;
+margin-left: 30px;  
+}
+
+.form-heading {
+color: var(--primary-primary-30, #0D4896);
+font-size: 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+display: flex;
+width: 578px;
+flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.form-para {
+color: var(--primary-primary-30, #0D4896);
+font-size: 14px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+display: flex;
+width: 578px;
+flex-direction: column;
+}
+
+.formpage {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  margin-top:-75px;
+  margin-left: 25px;
+  align-items: left;
+  opacity: 4;
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.20);
+  background: var(--white, #FFF);
+
+}
+
+label {
+  margin-bottom: 1px; 
+  
+}
+
+
+
+
+.PrimaryButton {
+border-radius: 5px;
+background: var(--primary-primary-30, #0D4896);
+display: flex;
+padding: 12px 25px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+color: var(--white, #FFF);
+text-align: center;
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+
+.paragraph {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.Rec-Password{
+  text-align: right;
+  align-items: right;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: right;
+  margin-left: 200px;
+  color: darkgrey;
+  color: var(--input, #A2A3A9);
+  font-family: Poppins;
+
+}
+
+/* 
+
+.email-input {
+color: var(--neutral-neutral-0, #0A0A0A);
+font-size: 1000px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+
+}
+
+.PasswordInput{
+color: var(--neutral-neutral-0, #0A0A0A);
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+} */
+
+
+
+
+
+
+
+

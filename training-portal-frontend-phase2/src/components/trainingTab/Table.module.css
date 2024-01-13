@@ -1,0 +1,53 @@
+
+.table{
+/* padding: 0px;
+width: 1392px;
+height: 810px; */
+}
+.tableHead {
+    /* padding: 0px 8px;
+    gap: 10px;
+    width: 621px;
+     height: 56px; */
+    border: 1px solid #D9DAE4; 
+    border-bottom: 3px solid #D9DAE4;
+    font-weight: bold !important;
+    
+}
+.tableHead2{
+/* text-align: center !important; 
+padding: 0px 8px;
+gap: 10px;
+width: 150px;
+height: 56px; */
+border: 1px solid #D9DAE4;
+border-bottom: 3px solid #D9DAE4;
+font-weight: bold !important;
+}
+.tablecolumn1{
+/* padding: 12px;
+gap: 10px;
+width: 621px;
+height: 50px; */
+border: 1px solid #D9DAE4 !important; 
+}
+.tablecolumn2{
+ text-align: center !important;
+/* padding: 12px; 
+gap: 10px;
+width: 150px;
+height: 50px; */
+border: 1px solid #D9DAE4 !important 
+}
+
+.disabled-status {
+    color: red; /* Change the color as per your preference */
+    font-weight: bold;
+  }
+  
+  /* CSS for Active status */
+  .active-status {
+    color: green; /* Change the color as per your preference */
+    font-weight: bold;
+    font-size: large;
+  }

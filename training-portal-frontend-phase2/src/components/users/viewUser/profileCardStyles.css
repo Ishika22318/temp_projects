@@ -1,0 +1,371 @@
+/* ProfileUserCard.css */
+.card-primary {
+  margin: 2px 1px;
+  padding: 5px;
+  height: 75px;
+  width: fit-content;
+  border-radius: 1px;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  background-color: white;
+}
+
+.card-container {
+  padding: 2px;
+  margin: 0 20px 0 25px;
+}
+
+.card-grid {
+  display: grid;
+  gap: 2.5rem;
+  row-gap: 2rem;
+  width: 100%;
+  justify-content: stretch;
+}
+.page-container {
+  background: var(--Background-Page, #f6f6f6);
+}
+
+.header-container {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-card-container {
+  justify-content: center;
+}
+
+/* Box styles */
+.custom-box {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  padding: 1px;
+}
+.name-text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.email-text {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  width: 100%;
+}
+.name-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.profile-initials {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 24px;
+  background: rgba(236, 244, 253, 1);
+}
+.sub-boxes {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Media styles */
+.custom-media {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.custom-cardmed {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-medcard {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  line-height: 24px;
+  background: rgba(236, 244, 253, 1);
+}
+.name-heading {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  width: 100%;
+}
+.email-phone {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  width: 100%;
+}
+/* Content styles */
+.custom-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Status styles */
+.custom-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3px 0px;
+  padding: 3px;
+}
+
+/* AlignRow styles */
+.custom-alignrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Right Border styles */
+.custom-rightborder {
+  border-right: 1px solid red;
+}
+
+/* Align Mentors styles */
+.custom-alignMentors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Name styles */
+.custom-name {
+  color: var(--Black, #000);
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.marginL5 {
+  margin-left: 5px;
+}
+.marginR5 {
+  margin-right: 5px;
+}
+.margin-mentor-count {
+  margin: 0 15px;
+}
+
+/* Grid Container styles */
+.custom-gridContainer {
+  margin-top: 20px;
+}
+
+/* Grid Item styles */
+.custom-gridItem {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d9dae4;
+  margin: 5px;
+}
+
+/* Edit Button styles */
+.custom-editbutton {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: none;
+}
+
+/* Small Text styles */
+.custom-smalltext {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}
+.custom-buttonstyle {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #0d4896; /* Color similar to Material-UI's outlined button */
+  color: #0d4896; /* Text color similar to Material-UI's outlined button */
+  border-radius: 4px;
+  font-size: 14rem;
+  text-align: center;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+/* ProfileCard.css */
+
+/* Card styles */
+.custom-card {
+  border: 1px solid #d9dae4;
+  height: 193px;
+  margin: 14px 30px;
+  /* width: 95.5%; */
+  display: flex;
+  padding: 5px 13px;
+  background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(0deg, #d9dae4, #d9dae4);
+  box-shadow: 1px -1px 15px 0px #00000014;
+  align-items: stretch;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: grey;
+}
+
+/* Box styles */
+.custom-box {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  padding: 1px;
+}
+
+/* Media styles */
+.custom-media {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Content styles */
+.custom-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Status styles */
+.custom-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3px 0px;
+  padding: 3px;
+}
+
+/* AlignRow styles */
+.custom-alignrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Right Border styles */
+.custom-rightborder {
+  border-right: 1px solid red;
+}
+
+/* Align Mentors styles */
+.custom-alignMentors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Name styles */
+.custom-name {
+  color: var(--Black, #000);
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+
+
+/* Grid Container styles */
+.custom-gridContainer {
+  margin-top: 20px;
+}
+
+/* Grid Item styles */
+.custom-gridItem {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d9dae4;
+  margin: 5px;
+}
+
+/* Edit Button styles */
+.custom-editbutton {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: none;
+}
+
+/* Small Text styles */
+.custom-smalltext {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}
+.custom-buttonstyle {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #0d4896; /* Color similar to Material-UI's outlined button */
+  color: #0d4896; /* Text color similar to Material-UI's outlined button */
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}

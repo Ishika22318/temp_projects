@@ -1,0 +1,106 @@
+.learning-tab-background{
+    background-color: #F1F1F1;
+    font-family: Poppins;
+}
+/* loaders */
+.loader-class-learning{
+    height: 100vh;
+   
+    
+  }
+  .spinner-learning{
+    
+    margin-top: 30vh;
+    border: 7px solid #727272; 
+    border-top: 7px solid #0000; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin-learning 2s linear infinite;
+  }
+  
+  @keyframes spin-learning {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* scrollbars for calendar and TT in desktop view */
+@media only screen and (min-width: 992px) { 
+ 
+    .my-learing-tab{
+        height: 100vh;
+        
+        overflow-y: scroll;
+    }
+    .my-time-table{
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    #my-time-table::-webkit-scrollbar{
+        width: 5px;
+    }
+    #my-time-table::-webkit-scrollbar-thumb{
+        background-color: rgb(212, 212, 212);
+    }
+   
+    #my-time-table::-webkit-scrollbar{
+        width: 5px;
+    }
+    #my-time-table::-webkit-scrollbar-thumb{
+        background-color: rgb(212, 212, 212);
+    }
+}
+.my-learing-tab h2, .overview-card-body h3,.overview-card-body h5,.my-learing-tab h4{
+    color: #12599c;
+}
+
+/* calendar component */
+.fc .fc-button-primary { 
+    color: #12599c !important;
+    background-color: #FFFF !important; 
+    border-color: #12599c !important; }
+.fc .fc-button-active  { 
+    color: #FFFF !important; 
+    background-color: #12599c !important; 
+}
+
+
+.fc .fc-prev-button , .fc .fc-next-button{ 
+    color: black !important;
+    background-color: transparent !important;
+    border: none !important;
+    padding: 5 !important;
+}
+   
+/*overview section  */
+.overview-card-body,.my-calendar-view{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px grey;
+}
+.overview-card-body p{
+    color: grey;
+}
+
+/* my timetable section */
+.my-time-table{
+    background-color: white;
+}
+.my-time-table h4{
+    color: #12599c;
+}
+.my-time-table h6{
+    color: gray;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+.my-time-table-content-tab{
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgb(185, 185, 185);
+}
+.my-time-table-content-tab h5{
+    color: #12599c;
+}
+.my-time-table-content-tab p{
+    color: gray;
+}

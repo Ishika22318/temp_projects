@@ -1,0 +1,1084 @@
+
+     [
+      {
+        "weekNumber": 1,
+        "label":"technical",
+        "course": "HTML",
+        "dates" : [
+          {
+            "date": "2023-06-01",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"
+               
+          },
+          {
+            "date": "2023-06-02",
+            "startTime": "11:00 AM",
+            "endTime": "12:00 PM"
+          }
+
+        ],
+        "courseContent": [
+          {
+            "topic": "Introduction to HTML",
+            "subtopics": [
+              "HTML syntax",
+              "Basic document structure",
+              "HTML tags and elements"
+            ]
+          },
+          {
+            "topic": "HTML Text Formatting",
+            "subtopics": [
+              "Headings and paragraphs",
+              "Text formatting tags",
+              "Semantic markup"
+            ]
+          },
+          {
+            "topic": "HTML Lists and Tables",
+            "subtopics": [
+              "Ordered and unordered lists",
+              "Nested lists",
+              "Creating tables",
+              "Table headers and cells"
+            ]
+          },
+          {
+            "topic": "HTML Forms",
+            "subtopics": [
+              "Form elements and attributes",
+              "Input types (text, checkbox, radio, etc.)",
+              "Form validation"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 2,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-06-05",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"
+               
+          },
+          {
+            "date": "2023-06-06",
+            "startTime": "11:00 AM",
+            "endTime": "12:00 PM"
+          },
+          {
+            "date": "2023-06-07",
+            "startTime": "2:00 PM",
+            "endTime": "5:00 PM"
+          }
+
+        ],
+        "course": "CSS",
+        "courseContent": [
+          {
+            "topic": "Introduction to CSS",
+            "subtopics": [
+              "CSS syntax",
+              "Inline vs. embedded vs. external stylesheets",
+              "CSS selectors and properties"
+            ]
+          },
+          {
+            "topic": "CSS Box Model",
+            "subtopics": [
+              "Margin, padding, and border",
+              "Width and height",
+              "Box model properties"
+            ]
+          },
+          {
+            "topic": "CSS Layouts",
+            "subtopics": [
+              "Positioning elements",
+              "Floating and clearing",
+              "Flexbox",
+              "Grid"
+            ]
+          },
+          {
+            "topic": "CSS Styling",
+            "subtopics": [
+              "Fonts and text styling",
+              "Backgrounds and gradients",
+              "Transformations and transitions",
+              "Responsive design"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 2,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-06-08",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-06-09",
+            "startTime": "11:00 AM",
+            "endTime": "12:00 PM"
+          }
+
+        ],
+        "course": "JavaScript",
+        "courseContent": [
+          {
+            "topic": "Introduction to JavaScript",
+            "subtopics": [
+              "JavaScript syntax",
+              "Variables, data types, and operators",
+              "Control flow and conditional statements"
+            ]
+          },
+          {
+            "topic": "JavaScript Functions",
+            "subtopics": [
+              "Declaring and invoking functions",
+              "Parameters and return values",
+              "Arrow functions"
+            ]
+          },
+          {
+            "topic": "Working with the DOM",
+            "subtopics": [
+              "DOM manipulation",
+              "Event handling",
+              "Creating and modifying elements"
+            ]
+          },
+          {
+            "topic": "AJAX and APIs",
+            "subtopics": [
+              "Making HTTP requests",
+              "JSON data",
+              "Using third-party APIs"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 3,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-06-12",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-06-13",
+            "startTime": "12:00 PM",
+            "endTime": "1:00 PM"
+          }
+        ],
+        "course": "React",
+        "courseContent": [
+          {
+            "topic": "Introduction to React",
+            "subtopics": [
+              "React components",
+              "JSX syntax",
+              "State and props"
+            ]
+          },
+          {
+            "topic": "React Component Lifecycle",
+            "subtopics": [
+              "Mounting, updating, and unmounting",
+              "Lifecycle methods"
+            ]
+          },
+          {
+            "topic": "React Router",
+            "subtopics": [
+              "Creating routes",
+              "Navigating between pages"
+            ]
+          },
+          {
+            "topic": "React Forms and Validation",
+            "subtopics": [
+              "Form handling",
+              "Form validation techniques"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 3,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-06-14",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-06-15",
+            "startTime": "12:00 PM",
+            "endTime": "1:00 PM"
+          },
+          {
+            "date": "2023-06-16",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+        ],
+        "course": "Node.js",
+        "courseContent": [
+          {
+            "topic": "Introduction to Node.js",
+            "subtopics": [
+              "Node.js architecture",
+              "Event-driven programming",
+              "Working with modules"
+            ]
+          },
+          {
+            "topic": "Asynchronous JavaScript",
+            "subtopics": [
+              "Callbacks",
+              "Promises",
+              "Async/await"
+            ]
+          },
+          {
+            "topic": "Express.js",
+            "subtopics": [
+              "Creating routes",
+              "Handling requests and responses",
+              "Middleware"
+            ]
+          },
+          {
+            "topic": "Database Integration",
+            "subtopics": [
+              "Connecting to databases",
+              "Performing CRUD operations"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 4,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-06-19",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-06-20",
+            "startTime": "12:00 PM",
+            "endTime": "1:00 PM"
+          },
+          {
+            "date": "2023-06-21",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+        ],
+        "course": "MongoDB",
+        "courseContent": [
+          {
+            "topic": "Introduction to MongoDB",
+            "subtopics": [
+              "Document-based database",
+              "MongoDB data modeling",
+              "CRUD operations"
+            ]
+          },
+          {
+            "topic": "MongoDB Aggregation Framework",
+            "subtopics": [
+              "Data aggregation pipeline",
+              "Aggregation operators",
+              "Grouping and sorting data"
+            ]
+          },
+          {
+            "topic": "Data Indexing",
+            "subtopics": [
+              "Creating indexes",
+              "Index optimization"
+            ]
+          },
+          {
+            "topic": "Mongoose",
+            "subtopics": [
+              "Object Data Modeling (ODM)",
+              "Defining models and schemas",
+              "Querying and updating data"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 4,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-06-22",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-06-23",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          }
+        ],
+        "course": "Vue.js",
+        "courseContent": [
+          {
+            "topic": "Introduction to Vue.js",
+            "subtopics": [
+              "Vue instance",
+              "Template syntax",
+              "Directives"
+            ]
+          },
+          {
+            "topic": "Vue Components",
+            "subtopics": [
+              "Creating and using components",
+              "Props and events",
+              "Component lifecycle hooks"
+            ]
+          },
+          {
+            "topic": "Vuex",
+            "subtopics": [
+              "State management",
+              "Getters, mutations, and actions",
+              "Module organization"
+            ]
+          },
+          {
+            "topic": "Vue Router",
+            "subtopics": [
+              "Creating routes",
+              "Navigation guards"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 5,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-06-26",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-06-27",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          },
+          {
+            "date": "2023-06-28",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+        ],
+        "course": "Django",
+        "courseContent": [
+          {
+            "topic": "Introduction to Django",
+            "subtopics": [
+              "Django architecture",
+              "Models, views, and templates",
+              "URL routing"
+            ]
+          },
+          {
+            "topic": "Database Integration",
+            "subtopics": [
+              "ORM (Object-Relational Mapping)",
+              "CRUD operations",
+              "Querying data"
+            ]
+          },
+          {
+            "topic": "Django Forms",
+            "subtopics": [
+              "Form handling",
+              "Form validation"
+            ]
+          },
+          {
+            "topic": "Authentication and Authorization",
+            "subtopics": [
+              "User registration and login",
+              "User roles and permissions"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 5,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-06-29",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-06-30",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          }
+        ],
+        "course": "GraphQL",
+        "courseContent": [
+          {
+            "topic": "Introduction to GraphQL",
+            "subtopics": [
+              "GraphQL syntax and types",
+              "Defining a schema",
+              "Queries and mutations"
+            ]
+          },
+          {
+            "topic": "GraphQL Resolvers",
+            "subtopics": [
+              "Resolving data",
+              "Fetching data from different sources",
+              "Error handling"
+            ]
+          },
+          {
+            "topic": "Apollo Server",
+            "subtopics": [
+              "Setting up a GraphQL server",
+              "Integrating with Express",
+              "Authentication and authorization"
+            ]
+          },
+          {
+            "topic": "GraphQL Client",
+            "subtopics": [
+              "Querying and mutating data",
+              "Caching and state management"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 6,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-07-03",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-07-04",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          }
+        ],
+        "course": "React Native",
+        "courseContent": [
+          {
+            "topic": "Introduction to React Native",
+            "subtopics": [
+              "React Native components",
+              "Styling and layout",
+              "Navigation"
+            ]
+          },
+          {
+            "topic": "Device APIs and Integration",
+            "subtopics": [
+              "Accessing camera and photo library",
+              "Geolocation and maps",
+              "Working with device sensors"
+            ]
+          },
+          {
+            "topic": "State Management and Redux",
+            "subtopics": [
+              "Managing app state",
+              "Redux actions, reducers, and store",
+              "Async actions with Redux Thunk"
+            ]
+          },
+          {
+            "topic": "Publishing and Deployment",
+            "subtopics": [
+              "Building and packaging apps",
+              "App distribution",
+              "Publishing to app stores"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 6,
+        "label":"technical",
+        "dates" : [
+          {
+            "date": "2023-07-05",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-07-06",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          },
+          {
+            "date": "2023-07-07",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+        ],
+        "course": "ASP.NET Core",
+        "courseContent": [
+          {
+            "topic": "Introduction to ASP.NET Core",
+            "subtopics": [
+              "ASP.NET Core architecture",
+              "Models, views, and controllers",
+              "Routing and middleware"
+            ]
+          },
+          {
+            "topic": "Database Integration",
+            "subtopics": [
+              "Entity Framework Core",
+              "CRUD operations",
+              "Querying data"
+            ]
+          },
+          {
+            "topic": "ASP.NET Core Identity",
+            "subtopics": [
+              "User registration and login",
+              "Role-based authorization"
+            ]
+          },
+          {
+            "topic": "Web API Development",
+            "subtopics": [
+              "Creating RESTful APIs",
+              "API versioning",
+              "Securing APIs"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 7,
+        "label":"technical",
+        
+        "dates" : [
+          {
+            "date": "2023-07-10",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-07-11",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          },
+          {
+            "date": "2023-07-12",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-07-13",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          },
+          {
+            "date": "2023-07-14",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+        ],
+        "course": "AWS",
+        "courseContent": [
+          {
+            "topic": "Introduction to AWS",
+            "subtopics": [
+              "Overview of AWS services",
+              "Setting up an AWS account",
+              "AWS management console"
+            ]
+          },
+          {
+            "topic": "AWS Compute Services",
+            "subtopics": [
+              "EC2 (Elastic Compute Cloud)",
+              "Lambda (Serverless computing)",
+              "Elastic Beanstalk"
+            ]
+          },
+          {
+            "topic": "AWS Database Services",
+            "subtopics": [
+              "RDS (Relational Database Service)",
+              "DynamoDB",
+              "Elasticsearch"
+            ]
+          },
+          {
+            "topic": "AWS Deployment and Scalability",
+            "subtopics": [
+              "Deployment strategies",
+              "Auto Scaling",
+              "Load balancing"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 8,
+        "label":"soft courses",
+        "dates" : [
+          {
+            "date": "2023-07-17",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-07-18",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          }
+        ],
+        "course": "Communication courses",
+        "courseContent": [
+          {
+            "topic": "Effective Verbal Communication",
+            "subtopics": [
+              "Listening courses",
+              "Speaking clearly",
+              "Nonverbal communication"
+            ]
+          },
+          {
+            "topic": "Written Communication",
+            "subtopics": [
+              "Business writing",
+              "Email etiquette",
+              "Professional documentation"
+            ]
+          },
+          {
+            "topic": "Presentation courses",
+            "subtopics": [
+              "Structuring a presentation",
+              "Visual aids",
+              "Engaging the audience"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 9,
+        "label":"soft courses",
+        "dates" : [
+          {
+            "date": "2023-07-19",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-07-20",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          }
+        ],
+        "course": "Teamwork and Collaboration",
+        "courseContent": [
+          {
+            "topic": "Building Effective Teams",
+            "subtopics": [
+              "Team dynamics",
+              "Roles and responsibilities",
+              "Conflict resolution"
+            ]
+          },
+          {
+            "topic": "Effective Communication in Teams",
+            "subtopics": [
+              "Active listening",
+              "Providing constructive feedback",
+              "Managing disagreements"
+            ]
+          },
+          {
+            "topic": "Collaborative Tools and Technologies",
+            "subtopics": [
+              "Online collaboration tools",
+              "Version control systems",
+              "Virtual team communication"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 9,
+        "label":"soft courses",
+        "dates" : [
+          {
+            "date": "2023-07-21",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+         
+        ],
+        "course": "Problem Solving and Critical Thinking",
+        "courseContent": [
+          {
+            "topic": "Analytical Thinking",
+            "subtopics": [
+              "Identifying problems",
+              "Gathering and analyzing data",
+              "Generating solutions"
+            ]
+          },
+          {
+            "topic": "Decision Making",
+            "subtopics": [
+              "Assessing alternatives",
+              "Evaluating risks",
+              "Making informed decisions"
+            ]
+          },
+          {
+            "topic": "Creativity and Innovation",
+            "subtopics": [
+              "Encouraging creative thinking",
+              "Brainstorming techniques",
+              "Promoting innovation"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 10,
+        "label":"soft courses",
+        "dates" : [
+          {
+            "date": "2023-07-24",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+         ,
+          {
+            "date": "2023-07-25",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+         
+        ],
+        "course": "Time Management and Organization",
+        "courseContent": [
+          {
+            "topic": "Setting Goals and Prioritization",
+            "subtopics": [
+              "SMART goal setting",
+              "Effective prioritization techniques",
+              "Managing multiple tasks"
+            ]
+          },
+          {
+            "topic": "Managing Procrastination",
+            "subtopics": [
+              "Identifying causes of procrastination",
+              "Overcoming procrastination",
+              "Creating a productive work environment"
+            ]
+          },
+          {
+            "topic": "Workflow and Task Management",
+            "subtopics": [
+              "Creating schedules",
+              "Using productivity tools",
+              "Delegation and outsourcing"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 10,
+        "label":"soft courses",
+        "dates" : [
+          {
+            "date": "2023-07-26",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-07-27",
+            "startTime": "2:00 PM",
+            "endTime": "4:00 PM"
+          }
+         
+        ],
+        "course": "Leadership and Influence",
+        "courseContent": [
+          {
+            "topic": "Leadership Styles and Approaches",
+            "subtopics": [
+              "Transformational leadership",
+              "Servant leadership",
+              "Adaptive leadership"
+            ]
+          },
+          {
+            "topic": "Influencing Others",
+            "subtopics": [
+              "Effective communication",
+              "Building relationships",
+              "Negotiation and persuasion"
+            ]
+          },
+          {
+            "topic": "Ethical Leadership",
+            "subtopics": [
+              "Integrity and transparency",
+              "Ethical decision making",
+              "Leading with values"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 10,
+        "label":"soft courses",
+        "dates" : [
+          {
+            "date": "2023-07-28",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+        ],
+        "course": "Emotional Intelligence",
+        "courseContent": [
+          {
+            "topic": "Self-Awareness",
+            "subtopics": [
+              "Understanding emotions",
+              "Self-reflection",
+              "Managing personal triggers"
+            ]
+          },
+          {
+            "topic": "Emotional Regulation",
+            "subtopics": [
+              "Stress management",
+              "Anger and frustration",
+              "Cultivating resilience"
+            ]
+          },
+          {
+            "topic": "Empathy and Social courses",
+            "subtopics": [
+              "Understanding others' perspectives",
+              "Effective listening",
+              "Building rapport"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 11,
+        "label":"soft courses",
+        "dates" : [
+          {
+            "date": "2023-07-31",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-08-01",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+          
+        ],
+        "course": "Interpersonal Communication",
+        "courseContent": [
+          {
+            "topic": "Active Listening",
+            "subtopics": [
+              "Empathetic listening",
+              "Clarifying understanding",
+              "Nonverbal cues"
+            ]
+          },
+          {
+            "topic": "Building Rapport",
+            "subtopics": [
+              "Creating a positive connection",
+              "Developing trust",
+              "Adapting communication styles"
+            ]
+          },
+          {
+            "topic": "Conflict Resolution",
+            "subtopics": [
+              "Understanding different conflict styles",
+              "Effective negotiation",
+              "Collaborative problem solving"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 11,
+        "label":"soft courses",
+        "dates" : [
+         
+          {
+            "date": "2023-08-02",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-08-03",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+          
+        ],
+        "course": "Professionalism and Work Ethic",
+        "courseContent": [
+          {
+            "topic": "Workplace Etiquette",
+            "subtopics": [
+              "Professional appearance",
+              "Respectful communication",
+              "Business etiquette"
+            ]
+          },
+          {
+            "topic": "Accountability and Integrity",
+            "subtopics": [
+              "Meeting deadlines",
+              "Taking responsibility",
+              "Ethical behavior"
+            ]
+          },
+          {
+            "topic": "Adaptability and Flexibility",
+            "subtopics": [
+              "Embracing change",
+              "Handling ambiguity",
+              "Learning agility"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 11,
+        "label":"soft courses",
+        "dates" : [
+         
+          {
+            "date": "2023-08-04",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+         
+        ],
+        "course": "Presentation courses",
+        "courseContent": [
+          {
+            "topic": "Structuring a Presentation",
+            "subtopics": [
+              "Introduction, body, and conclusion",
+              "Engaging opening and closing",
+              "Logical flow"
+            ]
+          },
+          {
+            "topic": "Visual Aids and Slide Design",
+            "subtopics": [
+              "Effective use of visuals",
+              "Creating engaging slides",
+              "Data visualization"
+            ]
+          },
+          {
+            "topic": "Delivery Techniques",
+            "subtopics": [
+              "Body language",
+              "Voice modulation",
+              "Handling nervousness"
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 12,
+        "label":"soft courses",
+        "dates" : [
+         
+          {
+            "date": "2023-08-07",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          },
+          {
+            "date": "2023-08-08",
+            "startTime": "9:00 AM",
+            "endTime": "1:00 PM"  
+          }
+          
+        ],
+        "course": "Career Development and Networking",
+        "courseContent": [
+          {
+            "topic": "Personal Branding",
+            "subtopics": [
+              "Identifying strengths and values",
+              "Crafting an elevator pitch",
+              "Managing online presence"
+            ]
+          },
+          {
+            "topic": "Job Search Strategies",
+            "subtopics": [
+              "Resume and cover letter writing",
+              "Job interview preparation",
+              "Networking for job opportunities"
+            ]
+          },
+          {
+            "topic": "Professional Networking",
+            "subtopics": [
+              "Building professional relationships",
+              "Networking events and platforms",
+              "Maintaining professional contacts"
+            ]
+          }
+        ]
+      }
+    ]
+  
+
+
+
